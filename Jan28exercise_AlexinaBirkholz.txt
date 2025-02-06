@@ -1,0 +1,13 @@
+which python returned /usr/local/Anaconda2023/bin/python when said in bash.
+echo $SHELL got /bin/csh
+ps -p $$ returned PID TTY 2097378 pts/0
+echo PYTHON_PATH returns PYTHON_PATH
+echo $PYTHON_PATH returns nothing
+export PYTHON_PATH returns nothing
+export $PYTHON_PATH returns A LOT. I think it lists out everything related to the installation of Python on this computer?
+
+error received when running code is a syntax error - closing parenthese ')' does not match opening parenthesis '['
+second test: got a ZeroDivisionError
+third test: TypeError: unsupported operand type(s) for /: "list" and "int"
+Guess: A
+hashbang added to get it to actually do this
